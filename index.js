@@ -25,7 +25,7 @@ mongoose.connection.on("disconnected", () => {
 });
 
 app.use(cors({
-  origin: 'https://hall-of-fame-03-phi.vercel.app/',
+  origin: 'https://halloffame-fr.onrender.com',
   credentials: true
 }));
 
